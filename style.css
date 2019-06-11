@@ -798,7 +798,8 @@ th {
 	background-color: #fff;
 	clear: both;
 	margin: 90px auto 0;
-	padding: 10% 40px;
+/*	padding: 10% 40px; */
+	padding: 4% 40px 10% 40px;
 	max-width: 1280px;
 }
 
@@ -964,7 +965,8 @@ th {
 }
 
 .page .entry-title,
-.single .entry-title {
+.single .entry-title,
+.single-movie .wrap h1 {
 	font-size: 48px;
 	font-size: 4.8rem;
 	font-weight: 700;
@@ -1645,8 +1647,8 @@ p.entry-meta {
 
 .page .entry-header,
 .single .entry-header {
-	margin: 0 auto 5%;
-	max-width: 660px;
+/*	max-width: 660px; */
+	max-width: 1280px;
 }
 
 .page.page-template-page_blog .entry-header {
@@ -2016,7 +2018,9 @@ p.form-submit,
 	animation-name:         fadeInUp;
 }
 
-
+/* LWM Media changes
+	
+	 */
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
