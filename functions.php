@@ -304,3 +304,40 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Front Page 3', 'digital-pro' ),
 	'description' => __( 'This is the 3rd section on the front page.', 'digital-pro' ),
 ) );
+
+
+
+
+
+/**
+ * Remove entry meta for post types NOTE YOU NEED TO LIST THE CPT IN THE CODE BELOW
+ * 
+ * @link https://gist.github.com/nathanrice/03a5871e5e5a27f22747
+ */
+ add_action( 'init', 'cpt_remove_entry_meta', 11 );
+
+function cpt_remove_entry_meta() {
+
+	remove_post_type_support( 'movie', 'genesis-entry-meta-before-content' );
+	remove_post_type_support( 'movie', 'genesis-entry-meta-after-content' );
+	
+}
+
+// Add image sizes from LWM.
+add_image_size( 'front-page-image', 300, 999 ); // Now Showing image
+add_image_size( 'poster', 400, 999 ); // Poster
+
+
+
+// Register the three useful image sizes for use in Add Media modal LWM
+add_filter( 'image_size_names_choose', 'lwm_custom_sizes' );
+function lwm_custom_sizes( $sizes ) {
+    return array_merge( $sizes, array(
+        'front-page-image' => __( 'Image For Front Page' ),
+        'poster' => __( 'Poster Image for Single Page' ),
+
+
+    ) );
+}
+
+
