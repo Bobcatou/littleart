@@ -2018,9 +2018,46 @@ p.form-submit,
 	animation-name:         fadeInUp;
 }
 
-/* LWM Media changes
-	
-	 */
+/* LWM Media changes */
+
+/* Movie Template Styline */
+.movie-poster {
+  margin-bottom: 30px;
+}
+
+h4.trailer-label {
+    margin-top: 10px;
+    text-align: center;
+    background: #4d1c1f;
+    padding: 5px 0;
+    color: #fff;
+}
+
+.single-movie .wrap h4, .single-movie .wrap h3 {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+  .show-time-grid h4, 
+.show-time-grid h5 {
+  text-align:center;
+}
+
+.show-time-grid h4 {
+  margin-top: 0;
+}
+
+.show-time-grid h5 {
+	font-size: 1.3rem;
+  	font-weight: normal;
+    margin-top: 20px;
+}
+
+.single-movie .wrap h1 {
+  margin-bottom: 15px;
+}
+
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
