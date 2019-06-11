@@ -133,6 +133,86 @@ Loaded on the front page */
 	color: #232525;
 }
 
+
+
+
+/* Listen to the Wind Media changes */
+.now-showing.wrap{
+    background: #d1d1d1;
+}
+
+.now-showing.wrap .col-sm-4 {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.now-showing.wrap p {
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 18px;
+	line-height: 1.8rem;	
+}
+
+.now-showing.wrap h3 {
+    font-size: 18px;
+    font-size: 1.8rem;
+	line-height: 23px;
+	line-height: 2.3rem;	
+    
+    text-align: center;
+}
+
+.movie-image-wrap {
+	min-height: 200px;
+}
+
+.trailer-button.one-half a,
+.more-info-button.one-half a {
+    background: #fe0e1a;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.showtime-front-page {
+    margin-top: 40px;
+}
+
+.movie-content-wrap {
+    min-height: 400px;
+    padding: 30px;
+    background: #fff;
+}
+.now-showing.wrap h5 {
+	font-size: 1.4rem;
+/*	margin-bottom: 0;*/
+/*	padding: 2px 0; */
+
+}
+
+
+div#tablist1-panel1 {
+    background: #d1d1d1;
+}
+
+.movie-information-wrap {
+    min-height: 350px;
+}
+
+.col-sm-4 h5 {
+}
+
+.date-time {
+    padding: 2px 10px;
+    border-radius: 10px;
+    background: #fe0e1a;
+}
+
+.date-time h5,
+.date-time p {
+	margin-bottom: 5px
+}
+
 /* Front Page 2
 --------------------------------------------- */
 
