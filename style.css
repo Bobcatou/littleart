@@ -2056,6 +2056,11 @@ h4.trailer-label {
   margin-bottom: 15px;
 }
 
+
+.imdbinfo {
+    margin-top: 50px;
+}
+
 /* Single Page Showtimes */
 
 .date-time {
