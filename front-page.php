@@ -116,6 +116,11 @@ function digital_front_page_widgets() {
 
 	echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'digital-pro' ) . '</h2>';
 
+	genesis_widget_area( 'walk-of-fame', array(
+		'before' => '<div id="walk-of-fame" class="walk-of-fame"><div class="widget-area fadeup-effect"><div class="wrap">',
+		'after'  => '</div></div></div>',
+	) );
+
 	genesis_widget_area( 'front-page-1', array(
 		'before' => '<div id="front-page-1" class="front-page-1"><div class="widget-area fadeup-effect"><div class="wrap">',
 		'after'  => '</div></div></div>',
