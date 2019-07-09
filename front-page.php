@@ -120,6 +120,9 @@ function digital_front_page_widgets() {
 		'before' => '<div id="walk-of-fame" class="walk-of-fame"><div class="widget-area fadeup-effect"><div class="wrap">',
 		'after'  => '</div></div></div>',
 	) );
+			echo '<div class="walk-of-fame wrap">';
+			echo '<h2>Walk of Fame Partners</h2>';
+			echo '</div>';
 
 	genesis_widget_area( 'front-page-1', array(
 		'before' => '<div id="front-page-1" class="front-page-1"><div class="widget-area fadeup-effect"><div class="wrap">',
