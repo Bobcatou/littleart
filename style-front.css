@@ -166,7 +166,7 @@ section#soliloquy-2 {
 
 /* Listen to the Wind Media changes */
 .now-showing.wrap{
-    background: #d1d1d1;
+    background: rgb(39,26,26,1)
 }
 
 .now-showing.wrap .col-sm-4 {
