@@ -55,6 +55,115 @@ Loaded on the front page */
 	clear: left;
 }
 
+
+/* Listen to the Wind Media Add */
+
+/* Front Page 1
+--------------------------------------------- */
+
+.walk-of-fame {
+	display: table;
+	margin-top: 90px;
+	overflow: hidden;
+	table-layout: fixed;
+	width: 100%;
+}
+
+.walk-of-fame .wrap {
+	margin: 0 auto;
+	max-width: 1280px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.walk-of-fame.wrap {
+	margin: 0 auto;
+	max-width: 1200px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background: #fff;
+	border-top: 2px solid #F5F5F5;
+}
+
+.walk-of-fame.wrap h2 {
+	text-align: center;
+	margin-top: 10px;
+}
+.walk-of-fame .widget {
+	margin-bottom: 40px;
+}
+
+.walk-of-fame .widget-area {
+	display: table-cell;
+	padding-top: 20px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+.walk-of-fame,
+.walk-of-fame p,
+.walk-of-fame .widget-title {
+	color: #232525;
+}
+
+.walk-of-fame .widget_text .widget-title {
+	font-family: 'Gothic A1', sans-serif;
+	font-size: 84px;
+	font-size: 8.4rem;
+	font-weight: 600;
+	letter-spacing: -3px;
+	margin-bottom: 0;
+	text-transform: none;
+}
+
+.walk-of-fame p {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+.walk-of-fame p:last-child {
+	margin-bottom: 0;
+}
+
+.walk-of-fame button,
+.walk-of-fame input[type="button"],
+.walk-of-fame input[type="reset"],
+.walk-of-fame input[type="submit"],
+.walk-of-fame .textwidget a.button {
+	border: none;
+	margin-top: 60px;
+}
+
+.walk-of-fame button:focus,
+.walk-of-fame button:hover,
+.walk-of-fame input:focus[type="button"],
+.walk-of-fame input:hover[type="button"],
+.walk-of-fame input:focus[type="reset"],
+.walk-of-fame input:hover[type="reset"],
+.walk-of-fame input:focus[type="submit"],
+.walk-of-fame input:hover[type="submit"],
+.walk-of-fame .textwidget a.button:focus,
+.walk-of-fame .textwidget a.button:hover {
+	background-color: #fff;
+	border: none;
+	color: #232525;
+}
+
+
+section#soliloquy-2 {
+    background: #fff;
+    margin-top: 20px;
+}
+
+/* End of LWM add */
+
+
+
+
+
+
+
+
 /* Front Page 1
 --------------------------------------------- */
 
