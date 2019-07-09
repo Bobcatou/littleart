@@ -305,16 +305,6 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the 3rd section on the front page.', 'digital-pro' ),
 ) );
 
-genesis_register_sidebar( array(
-	'id'          => 'walk-of-fame',
-	'name'        => __( 'Walk of Fame', 'digital-pro' ),
-	'description' => __( 'Walk of Fame Section above Now Showing.', 'digital-pro' ),
-) );
-genesis_register_sidebar( array(
-	'id'          => 'starring-roll',
-	'name'        => __( 'Starring Role ', 'digital-pro' ),
-	'description' => __( 'Starring Role Partners above bottom menu.', 'digital-pro' ),
-) );
 
 
 
