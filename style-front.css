@@ -166,7 +166,7 @@ section#soliloquy-2 {
 
 /* Listen to the Wind Media changes */
 .now-showing.wrap{
-    background: rgb(39,26,26,1)
+    background: rgb(119,92,76,1)
 }
 
 .now-showing.wrap .col-sm-4 {
@@ -195,11 +195,16 @@ section#soliloquy-2 {
 	min-height: 200px;
 }
 
+.movie-information-wrap h3 {
+	color: #271a1a;
+}
+
 .trailer-button.one-half a,
 .more-info-button.one-half a {
-    background: #fe0e1a;
+    background: #532d29;
     padding: 10px;
     border-radius: 5px;
+    color: #fff;
 }
 
 .showtime-front-page {
@@ -220,7 +225,7 @@ section#soliloquy-2 {
 
 
 div#tablist1-panel1 {
-    background: rgb(39,26,26,1)
+    background: rgb(119,92,76,1)
 }
 
 .movie-information-wrap {
@@ -233,8 +238,8 @@ div#tablist1-panel1 {
 .date-time {
     padding: 2px 10px;
     border-radius: 10px;
-    background: #fe0e1a;
-}
+    background: #532d29;
+    }
 
 .date-time h5,
 .date-time p {
