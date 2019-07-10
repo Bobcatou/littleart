@@ -167,7 +167,7 @@ body {
   padding: 0;
   transition: all .4s ease;
   position: relative;
-  background: url(images/little-art-screen.jpg);
+  background: #f5edcd;
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
