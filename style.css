@@ -291,7 +291,7 @@ h3,
 h4,
 h5,
 h6 {
-	color: #232525;
+	color: #fff;
 	font-family: 'Gothic A1', sans-serif;
 	font-weight: 700;
 	line-height: 1.2;
@@ -759,6 +759,7 @@ th {
 	-ms-animation:     fadein 1s;
 	-o-animation:      fadein 1s;
 	animation:         fadein 1s;
+
 }
 
 .digital-landing .site-container {
