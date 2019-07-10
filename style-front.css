@@ -166,7 +166,7 @@ section#soliloquy-2 {
 
 /* Listen to the Wind Media changes */
 .now-showing.wrap{
-    background: rgb(119,92,76,1)
+    background: #ebe1cb;
 }
 
 .now-showing.wrap .col-sm-4 {
@@ -225,7 +225,7 @@ section#soliloquy-2 {
 
 
 div#tablist1-panel1 {
-    background: rgb(119,92,76,1)
+    background: #ebe1cb;
 }
 
 .movie-information-wrap {
@@ -250,7 +250,7 @@ div#tablist1-panel1 {
 --------------------------------------------- */
 
 .front-page-2 {
-	background-color: rgb(39,26,26,0.8)
+	background-color: #ebe1cb;
 /*	border-top: 70px solid transparent; */
 /*	margin-top: -70px; */ 
 }
