@@ -260,7 +260,11 @@ div#tablist1-panel1 {
 	color: #a62f29 !important;
 }
 
+/* Top Slider */
 
+section#soliloquy-3 {
+    margin-top: 40px;
+}
 
 /* Front Page 2
 --------------------------------------------- */
