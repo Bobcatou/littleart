@@ -1379,6 +1379,7 @@ a[rel~="attachment"]:hover,
 
 .header-image .site-header {
 	padding: 9px 40px;
+	background: #eddc9f;
 }
 
 .header-image .site-header.shrink {
