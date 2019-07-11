@@ -166,7 +166,7 @@ section#soliloquy-2 {
 
 /* Listen to the Wind Media changes */
 .now-showing.wrap{
-    background: #ebe1cb;
+    background: #eddc9f;
 }
 
 .now-showing.wrap .col-sm-4 {
@@ -225,7 +225,7 @@ section#soliloquy-2 {
 
 
 div#tablist1-panel1 {
-    background: #ebe1cb;
+    background: #eddc9f;
 }
 
 .movie-information-wrap {
@@ -251,11 +251,22 @@ div#tablist1-panel1 {
 .date-time h5 {
 	color:#fff;
 }
+
+
+
+.responsive-tabs .responsive-tabs__list__item--active,
+.responsive-tabs .responsive-tabs__list__item--active:hover,
+.responsive-tabs .responsive-tabs__list__item {
+	color: #a62f29 !important;
+}
+
+
+
 /* Front Page 2
 --------------------------------------------- */
 
 .front-page-2 {
-	background-color: #ebe1cb;
+	background-color: #eddc9f;
 /*	border-top: 70px solid transparent; */
 /*	margin-top: -70px; */ 
 }
