@@ -221,6 +221,7 @@ section#soliloquy-2 {
 }
 .now-showing.wrap h5 {
 	font-size: 1.4rem;
+	letter-spacing: -.5px;
 /*	margin-bottom: 0;*/
 /*	padding: 2px 0; */
 
