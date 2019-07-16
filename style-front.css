@@ -270,8 +270,8 @@ section#soliloquy-3 {
 }
 
 
-.soliloquy-outer-container.soliloquy-carousel {
-
+#soliloquy-3 .widget-title {
+	margin-bottom: 0;
 }    
     
     
