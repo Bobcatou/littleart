@@ -235,8 +235,14 @@ div#tablist1-panel1 {
     min-height: 350px;
 }
 
-.col-sm-4 h5 {
+#text-2 h2   {
+	margin-bottom: o;
 }
+
+.responsive-tabs .responsive-tabs__panel {
+	padding-top: 10px !important;
+}
+
 
 .date-time {
     padding: 2px 10px;
@@ -276,8 +282,6 @@ section#soliloquy-3 {
     
     
     
-    
-}
 /* Front Page 2
 --------------------------------------------- */
 
