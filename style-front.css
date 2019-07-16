@@ -109,7 +109,7 @@ section#soliloquy-2 {
 
 .front-page-1 .widget-title {
 	text-align: center;
-	background: #eddc9f;
+	background: #ebdc99;
     padding: 10px 0;
 }
 
@@ -121,7 +121,7 @@ section#soliloquy-2 {
 
 
 .front-page-1 .widget_text .widget-title {
-	font-family: 'Gothic A1', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 84px;
 	font-size: 8.4rem;
 	font-weight: 600;
@@ -168,7 +168,7 @@ section#soliloquy-2 {
 
 /* Listen to the Wind Media changes */
 .now-showing.wrap{
-    background: #eddc9f;
+    background: #ebdc99;
 }
 
 .now-showing.wrap .col-sm-4 {
@@ -227,7 +227,7 @@ section#soliloquy-2 {
 
 
 div#tablist1-panel1 {
-    background: #eddc9f;
+    background: #ebdc99;
 }
 
 .movie-information-wrap {
@@ -270,13 +270,18 @@ section#soliloquy-3 {
 
 
 .soliloquy-outer-container.soliloquy-carousel {
-    border: 10px solid #b28c3a;
+
+}    
+    
+    
+    
+    
 }
 /* Front Page 2
 --------------------------------------------- */
 
 .front-page-2 {
-	background-color: #eddc9f;
+	background-color: #ebdc99;
 /*	border-top: 70px solid transparent; */
 /*	margin-top: -70px; */ 
 }
@@ -348,7 +353,7 @@ section#soliloquy-3 {
 
 .front-page-2 ul li {
 	color: #232525;
-	font-family: 'Gothic A1', sans-serif;
+	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
 	font-weight: 600;
