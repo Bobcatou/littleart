@@ -95,7 +95,8 @@ section#soliloquy-2 {
 
 .front-page-1 .widget-area {
 	display: table-cell;
-	padding-top: 20px;
+/*	padding-top: 20px; */
+	padding-top: 0;
 	vertical-align: middle;
 	width: 100%;
 }
