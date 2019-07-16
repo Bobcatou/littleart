@@ -262,7 +262,12 @@ div#tablist1-panel1 {
 	color:#fff;
 }
 
-
+.trailer-button.one-half.first h5 a,
+.more-info-button.one-half a {
+    font-size: 20px;
+    letter-spacing: 0;
+    border-radius: 10px;
+}
 
 .responsive-tabs .responsive-tabs__list__item--active,
 .responsive-tabs .responsive-tabs__list__item--active:hover,
