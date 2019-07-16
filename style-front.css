@@ -186,8 +186,8 @@ section#soliloquy-2 {
 }
 
 .now-showing.wrap h3 {
-    font-size: 18px;
-    font-size: 1.8rem;
+    font-size: 25px;
+    font-size: 2.5rem;
 	line-height: 23px;
 	line-height: 2.3rem;	
     margin: 10px 0;
@@ -230,6 +230,14 @@ section#soliloquy-2 {
 
 div#tablist1-panel1 {
     background: #ebdc99;
+}
+
+.responsive-tabs-wrapper {
+	margin-bottom: 0 !important;
+}
+
+.sep h1 {
+	margin: 0;
 }
 
 .movie-information-wrap {
@@ -291,10 +299,13 @@ section#soliloquy-3 {
 /* Front Page 2
 --------------------------------------------- */
 
-.front-page-2 {
+.front-page-2,
+.front-page-3 {
 	background-color: #ebdc99;
 /*	border-top: 70px solid transparent; */
-/*	margin-top: -70px; */ 
+/*	margin-top: -70px; */
+	width: 1200px;
+    margin: 0 auto; 
 }
 
 .front-page-2 .wrap {
