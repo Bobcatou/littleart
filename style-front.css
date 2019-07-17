@@ -59,7 +59,6 @@ Loaded on the front page */
 /* Sliders */
 section#soliloquy-2 {
     background: #fff;
-    margin-top: 20px;
 }
 
 /* End of LWM add */
@@ -436,9 +435,9 @@ section#soliloquy-3 {
 
 .front-page-3 .wrap {
 	margin: 0 auto;
-	max-width: 1280px;
-	padding-left: 40px;
-	padding-right: 40px;
+	max-width: 1200px;
+/*	padding-left: 40px;
+	padding-right: 40px; */
 }
 
 .front-page-3,
@@ -447,7 +446,7 @@ section#soliloquy-3 {
 .front-page-3 p,
 .front-page-3 .icon,
 .front-page-3 .widget-title {
-	color: #252525;
+	color: #a62f29;
 }
 
 .front-page-3 a:focus,
@@ -489,6 +488,35 @@ section#soliloquy-3 {
 	color: #232525;
 }
 
+/* Ticket image */
+.fade-on-hover {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+   .fade-on-hover:hover {
+      opacity: 0.5;
+      }
+
+section#media_image-2 a {
+    border-bottom: 0;
+}
+
+/* bottom separator before second carousel */
+
+#custom_html-3 .flexible-widgets .widget:first-child {
+	margin-bottom: 0;
+}
+
+
+
+
+section#custom_html-3 {
+    margin: 0;
+    padding: 0;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
