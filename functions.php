@@ -326,8 +326,7 @@ function cpt_remove_entry_meta() {
 // Add image sizes from LWM.
 add_image_size( 'now-showing-front-page-image', 300, 999 ); // Now Showing image
 add_image_size( 'poster', 400, 999 ); // Poster
-add_image_size( 'carousel-image', 300, 130, array( 'center', 'center'  ); // Carousel Image for Partners
-
+add_image_size( 'carousel-image', 300, 130, array( 'center', 'center' )  ); // Carousel Image for Partners
 
 
 
