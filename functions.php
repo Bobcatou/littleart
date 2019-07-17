@@ -124,7 +124,7 @@ function digital_remove_genesis_metaboxes( $_genesis_theme_settings_pagehook ) {
 unregister_sidebar( 'header-right' );
 
 // Add image sizes.
-add_image_size( 'front-page-featured', 1000, 700, TRUE );
+// add_image_size( 'front-page-featured', 1000, 700, TRUE );
 
 // Reposition post image.
 remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
@@ -333,7 +333,7 @@ add_image_size( 'poster', 400, 999 ); // Poster
 add_filter( 'image_size_names_choose', 'lwm_custom_sizes' );
 function lwm_custom_sizes( $sizes ) {
     return array_merge( $sizes, array(
-        'front-page-image' => __( 'Image For Front Page' ),
+        'front-page-image' => __( 'Now Showing Image For Front Page' ),
         'poster' => __( 'Poster Image for Single Page' ),
 
 
