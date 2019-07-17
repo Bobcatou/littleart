@@ -102,10 +102,14 @@ section#soliloquy-2 {
 }
 
 .front-page-1,
-.front-page-1 p,
 .front-page-1 .widget-title {
 	color: #a62f29;
 }
+
+.front-page-1 p {
+	color: #1d0c18;
+}
+
 
 
 .front-page-1 .widget-title {
@@ -341,7 +345,7 @@ section#soliloquy-3 {
 }
 
 .front-page-2 .flexible-widgets.widget-halves .widget:nth-child(odd) {
-	border-right: 1px solid #eee;
+/*	border-right: 1px solid #eee; */
 	clear: left;
 	padding-right: 8%;
 }
