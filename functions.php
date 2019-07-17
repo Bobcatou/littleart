@@ -324,7 +324,7 @@ function cpt_remove_entry_meta() {
 }
 
 // Add image sizes from LWM.
-add_image_size( 'front-page-image', 300, 999 ); // Now Showing image
+add_image_size( 'now-showing-front-page-image', 300, 999 ); // Now Showing image
 add_image_size( 'poster', 400, 999 ); // Poster
 
 
@@ -333,7 +333,7 @@ add_image_size( 'poster', 400, 999 ); // Poster
 add_filter( 'image_size_names_choose', 'lwm_custom_sizes' );
 function lwm_custom_sizes( $sizes ) {
     return array_merge( $sizes, array(
-        'front-page-image' => __( 'Now Showing Image For Front Page' ),
+        'now-showing-front-page-image' => __( 'Now Showing Image For Front Page' ),
         'poster' => __( 'Poster Image for Single Page' ),
 
 
