@@ -1879,7 +1879,7 @@ p.form-submit,
 }
 
 .footer-widgets-1 {
-	background-color: #e85555;
+	background-color: #57714C;
 	text-align: right;
 	width: 25%;
 }
@@ -1970,6 +1970,7 @@ p.form-submit,
 .site-footer {
 	padding: 28px;
 	text-align: center;
+	background: #ebdc99;
 }
 
 .site-footer a,
