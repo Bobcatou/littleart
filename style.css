@@ -163,7 +163,7 @@ body {
 
 /* Background for site */
 body {
-  color: #AE926B;
+  color: #1d0c18;
   padding: 0;
   transition: all .4s ease;
   position: relative;
@@ -2067,15 +2067,19 @@ h4.trailer-label {
 /* Single Page Showtimes */
 
 .date-time {
-    padding: 2px 10px;
+    padding: 2px 5px;
     border-radius: 10px;
-    background: #fe0e1a;
+    background: #57714C;
 }
 
 .date-time h5,
 .date-time p {
 	margin-bottom: 5px;
 	text-align: center;
+}
+
+.date-time h5 {
+	color: #fff;
 }
 
 .single-movie .wrap h3 {
