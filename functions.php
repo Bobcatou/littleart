@@ -344,3 +344,20 @@ function lwm_custom_sizes( $sizes ) {
 }
 
 
+//Limit Characters in Blurb field
+
+add_shortcode('show_field_with_limit', 'func_limit_field_length');
+ function func_limit_field_length($atts, $content = '') {
+    $content = wpv_do_shortcode($content);
+    $length = (int)$atts['length'];
+   
+    if (strlen($content) > $length) {
+        $content = substr($content, 0, $length) . '…';
+    }
+   
+    // Strip HTML Tags
+    $content = strip_tags($content);
+   
+    return $content;
+}
+
