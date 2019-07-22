@@ -11,6 +11,7 @@ Loaded on the front page */
 .front-page p:last-child,
 .front-page .widget:last-child {
 	margin-bottom: 0;
+	line-height: 25px;
 }
 
 .front-page.front-page-loop .site-inner {
@@ -285,6 +286,13 @@ div#tablist1-panel1 {
 .responsive-tabs .responsive-tabs__list__item {
 	color: #a62f29 !important;
 }
+
+
+.responsive-tabs .responsive-tabs__panel {
+	background: #ebdc99 !important;
+}
+
+
 
 /* Top Slider */
 
