@@ -355,6 +355,7 @@ section#soliloquy-3 {
 /*	border-right: 1px solid #eee; */
 	clear: left;
 	padding-right: 8%;
+	padding-top: 8%;
 }
 
 .front-page-2 .flexible-widgets .widget:nth-child(even) {
