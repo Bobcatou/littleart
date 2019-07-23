@@ -512,6 +512,14 @@ section#media_image-2 a {
     border-bottom: 0;
 }
 
+/* 90 years */
+
+
+section#responsive_lightbox_image_widget-2 img {
+    width: 180px;
+    height: 300px;
+}
+
 /* bottom separator before second carousel */
 
 #custom_html-3 .flexible-widgets .widget:first-child {
