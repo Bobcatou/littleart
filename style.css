@@ -796,7 +796,8 @@ th {
 --------------------------------------------- */
 
 .site-inner {
-	background-color: #fff;
+/*	background-color: #fff; */
+	background-color: #f5edcd;
 	clear: both;
 	margin: 90px auto 0;
 /*	padding: 10% 40px; */
@@ -2095,11 +2096,26 @@ h4.trailer-label {
 .sep {
 	background: url(images/separator.png);
 	width: 100%;
-	height: 100%;
+	height: 100%; 
 	padding: 3rem;
 }
 
+/* Past events */
 
+.past-events-grid .col-sm-4,
+.single-past-event h3 {
+	text-align: center;
+}
+
+.past-events-grid {
+    background: #ebdc99;
+    padding: 30px 0;
+}
+
+
+.single-past-event img	{
+	border: 4px #57714C solid;
+}
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
