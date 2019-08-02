@@ -1867,7 +1867,7 @@ p.form-submit,
 
 .footer-widgets {
 	background-color: #232525;
-	border-top: 5px solid #fff;
+/*	border-top: 5px solid #fff; */
 	clear: both;
 	text-align: center;
 }
