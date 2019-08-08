@@ -1396,7 +1396,8 @@ a[rel~="attachment"]:hover,
 	background-position: center center !important;
 	background-size: contain !important;
 	float: left;
-	min-height: 70px;
+/*	min-height: 70px; */
+	min-height: 100px;
 	width: 300px;
 }
 
@@ -2100,22 +2101,66 @@ h4.trailer-label {
 	padding: 3rem;
 }
 
+.sep-underline {
+    background: url(images/separator-380-5.png);
+    width: 75%;
+    height: 100%;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+.sep-underline-upcoming {
+    background: url(images/separator-380-5.png);
+    width: 25%;
+    height: 100%;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+
+
 /* Past events */
 
 .past-events-grid .col-sm-4,
 .single-past-event h3 {
 	text-align: center;
 }
-
+.upcoming-events,
 .past-events-grid {
     background: #ebdc99;
     padding: 30px 0;
 }
 
-
+.single-upcoming-event img,
 .single-past-event img	{
 	border: 4px #57714C solid;
 }
+
+.single-upcoming-event h3 a,
+.single-past-event h3 a {
+	color: #a62f29;
+	border-bottom: 0;
+
+}
+.single-upcoming-event h3,
+.single-past-event h3 {
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+.image-and-title {
+    min-height: 237px;
+}
+.single-upcoming-event,
+.single-past-event {
+    margin-bottom: 40px;
+}
+
+/* Upcoming Events */
+.upcoming-events .col-sm-12 {
+	text-align: center;
+}
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
