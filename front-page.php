@@ -121,6 +121,13 @@ function digital_front_page_widgets() {
 		'after'  => '</div></div></div>',
 	) );
 
+
+//	genesis_widget_area( 'front-page-1', array(
+//		'before' => '<div id="front-page-1" class="front-page-2"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_halves_widget_area_class( 'front-page-1' ) . '">',
+//		'after'  => '</div></div></div>',
+//	) );
+
+
 	genesis_widget_area( 'front-page-2', array(
 		'before' => '<div id="front-page-2" class="front-page-2"><div class="wrap"><div class="flexible-widgets widget-area fadeup-effect' . digital_halves_widget_area_class( 'front-page-2' ) . '">',
 		'after'  => '</div></div></div>',
