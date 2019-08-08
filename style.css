@@ -1419,6 +1419,7 @@ a[rel~="attachment"]:hover,
 	clear: both;
 	line-height: 1;
 	width: 100%;
+	padding-top: 15px;
 }
 
 .genesis-nav-menu .menu-item {
@@ -1431,8 +1432,8 @@ a[rel~="attachment"]:hover,
 	color: #232525;
 	display: block;
 	font-family: 'PT Sans', sans-serif;
-	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 18px;
+	font-size: 1.8rem;
 	font-weight: 600;
 	letter-spacing: 0.5px;
 	padding: 10px;
