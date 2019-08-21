@@ -107,6 +107,13 @@ function digital_loop_body_class( $classes ) {
 
 }
 
+
+
+
+
+
+
+
 // Add widgets on front page.
 function digital_front_page_widgets() {
 
