@@ -316,10 +316,6 @@ div#tablist1-panel1 {
 
 /* Sliders */
 
-section#soliloquy-3 {
-    margin-top: 40px;
-}
-
 
 #soliloquy-3 .widget-title {
 	margin-bottom: 0;
@@ -339,7 +335,7 @@ section#soliloquy-2 {
     background: #ebdc99;
 }    
  div#front-page-3 {
-    background: #ebdc99;
+    background: transparent;
     margin-bottom: 20px;
 }   
 
