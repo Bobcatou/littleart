@@ -2096,7 +2096,7 @@ h4.trailer-label {
 
 /* Separator colors */
 .sep {
-	background: url(images/separator.png);
+	background: url(images/new-separator-10px.png);
 	width: 100%;
 	height: 100%; 
 	padding: 3rem;
