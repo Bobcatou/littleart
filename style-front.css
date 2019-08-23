@@ -62,6 +62,13 @@ section#soliloquy-2 {
     background: #fff;
 }
 
+
+section#soliloquy-2 .widget-title {
+	margin: 0;
+	padding: 10px 0;
+}
+
+
 /* End of LWM add */
 
 
@@ -76,7 +83,7 @@ section#soliloquy-2 {
 
 .front-page-1 {
 	display: table;
-	margin-top: 90px;
+	margin-top: 90px; 
 	overflow: hidden;
 	table-layout: fixed;
 	width: 100%;
@@ -243,12 +250,20 @@ section#custom_html-4 h2 {
 }
 
 
+.now-showing.wrap {
+	height: auto;
+}
+
 div#tablist1-panel1 {
     background: #ebdc99;
 }
 
 .responsive-tabs-wrapper {
 	margin-bottom: 0 !important;
+
+}
+
+.movie-content-wrap {
 }
 
 .sep h1 {
@@ -351,13 +366,13 @@ section#soliloquy-2 {
 	background-color: #ebdc99;
 /*	border-top: 70px solid transparent; */
 /*	margin-top: -70px; */
-/*	width: 1200px;*/
-/*    margin: 0 auto; */
+	width: 1200px;
+    margin: 0 auto; 
 }
 
 .front-page-2 .wrap {
 	margin: 0 auto;
-	max-width: 1280px;
+/*	max-width: 1280px; */
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -573,13 +588,22 @@ section#custom_html-3 {
 
 
 
+/* Tab menu tab */
+
+.responsive-tabs ul.responsive-tabs__list {
+	margin: 0 !important;
+}
 
 
+.responsive-tabs .responsive-tabs__list__item--active, .responsive-tabs .responsive-tabs__list__item--active:hover {
+	top: 0 !important;
+	border-color: transparent;
+}
 
 
-
-
-
+.responsive-tabs .responsive-tabs__list__item {
+	color: #232525 !important;
+}
 
 
 
