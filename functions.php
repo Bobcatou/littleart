@@ -327,6 +327,7 @@ function cpt_remove_entry_meta() {
 add_image_size( 'now-showing-front-page-image', 300, 999 ); // Now Showing image
 add_image_size( 'poster', 400, 999 ); // Poster
 add_image_size( 'carousel-image', 200, 130, true ); // Carousel Image for Partners
+add_image_size( 'upcoming', 600, 400 ); // Upcoming Preview pages
 
 
 
@@ -337,6 +338,7 @@ function lwm_custom_sizes( $sizes ) {
         'now-showing-front-page-image' => __( 'Now Showing Image For Front Page' ),
         'poster' => __( 'Poster Image for Single Page' ),
         'carousel-image' => __( 'Carousel Image for Partners' ),
+        'upcoming' => __( 'Upcoming Event' ),
 
 
 
