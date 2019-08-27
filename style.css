@@ -1336,8 +1336,9 @@ a[rel~="attachment"]:hover,
 	padding: 28px 30px;
 	position: fixed;
 	top: 0;
-	width: 100%;
+    width: 100%; 
 	z-index: 999;
+	margin: 0 auto;
 }
 
 .site-header.shrink {
@@ -1966,7 +1967,11 @@ p.form-submit,
 	padding: 15px !important;
 }
 
-
+/* lwm change */
+#genesis-footer-widgets {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 /* Site Footer
 ---------------------------------------------------------------------------------------------------- */
 
@@ -1992,6 +1997,7 @@ p.form-submit,
 	font-size: 14px;
 	font-size: 1.4rem;
 	margin-bottom: 0;
+	font-weight: 700;
 }
 
 
