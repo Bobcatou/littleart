@@ -323,9 +323,14 @@ div#tablist1-panel1 {
 }
 
 
-
 .responsive-tabs .responsive-tabs__panel {
 	background: #ebdc99 !important;
+}
+
+
+
+.single-upcoming-event p {
+	margin-top: 10px;
 }
 
 
@@ -352,11 +357,12 @@ section#soliloquy-2 {
 }    
  div#front-page-3 {
     background: transparent;
-    margin-bottom: 20px;
 }   
 
 
-
+.now-showing.wrap {
+    min-height: 630px;
+}
 
 /* Front Page 2
 --------------------------------------------- */
@@ -366,13 +372,13 @@ section#soliloquy-2 {
 	background-color: #ebdc99;
 /*	border-top: 70px solid transparent; */
 /*	margin-top: -70px; */
-	width: 1200px;
+	max-width: 1200px;
     margin: 0 auto; 
 }
 
 .front-page-2 .wrap {
 	margin: 0 auto;
-/*	max-width: 1280px; */
+	max-width: 1280px; 
 	padding-left: 40px;
 	padding-right: 40px;
 }
