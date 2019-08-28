@@ -609,8 +609,9 @@ section#custom_html-3 {
 
 .responsive-tabs .responsive-tabs__list__item {
 	color: #232525 !important;
+	width: 24%;
+	text-align: center;
 }
-
 
 
 

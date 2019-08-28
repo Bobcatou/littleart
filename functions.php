@@ -49,7 +49,7 @@ define( 'CHILD_THEME_VERSION', '1.1.3' );
 add_action( 'wp_enqueue_scripts', 'digital_scripts_styles' );
 function digital_scripts_styles() {
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=PT+Sans:400,700|Roboto:400,400i,700', array(), CHILD_THEME_VERSION );
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Poppins:400,500,600,700', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array(), CHILD_THEME_VERSION );
 
 	wp_enqueue_script( 'digital-global-scripts', get_stylesheet_directory_uri() . '/js/global.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
@@ -124,7 +124,7 @@ function digital_remove_genesis_metaboxes( $_genesis_theme_settings_pagehook ) {
 unregister_sidebar( 'header-right' );
 
 // Add image sizes.
-// add_image_size( 'front-page-featured', 1000, 700, TRUE );
+add_image_size( 'front-page-featured', 1000, 700, TRUE );
 
 // Reposition post image.
 remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
@@ -304,6 +304,7 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Front Page 3', 'digital-pro' ),
 	'description' => __( 'This is the 3rd section on the front page.', 'digital-pro' ),
 ) );
+<<<<<<< HEAD
 
 
 
@@ -373,3 +374,5 @@ function sp_footer_creds_text() {
      echo ' &middot; <a href="https://littleart.com">Little Art Theatre</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
      echo '</p></div>';
 }
+=======
+>>>>>>> 4c3b565c689669a4acc81bbd6d9f09978fb1006e

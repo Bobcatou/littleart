@@ -501,15 +501,16 @@ input[type="submit"],
 .button,
 .entry-content a.button,
 .textwidget a.button {
-	background-color: #e85555;
-	border-radius: 50px;
+/*	background-color: #e85555; */
+	background-color: #ebdc99;
+	border-radius: 5px;
 	border: none;
-	color: #fff;
+	color: #242525;
 	cursor: pointer;
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-weight: 500;
+	font-weight: 700;
 	letter-spacing: 0.5px;
 	padding: 20px 30px;
 	text-transform: uppercase;
@@ -1879,7 +1880,9 @@ p.form-submit,
 .footer-widgets-2,
 .footer-widgets-3 {
 	float: left;
-	padding: 90px 4%;
+/*	padding: 90px 4%; */
+	padding: 45px 2%;
+	
 }
 
 .footer-widgets-1 {
@@ -2166,6 +2169,35 @@ h4.trailer-label {
 /* Upcoming Events */
 .upcoming-events .col-sm-12 {
 	text-align: center;
+}
+
+
+/* Donation Page */
+
+.donate-wrap {
+    border-bottom: solid 1px #000;
+    padding: 20px 0;
+}
+
+
+
+.donate-title {
+	min-height: 245px;
+}
+
+
+
+.donate a {
+    background: #ebd899;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 700;
+    border-bottom: 0px;
+}
+
+/* Estate planning hyperlinks */
+span.mail-phone a {
+    background: none;
 }
 
 /* Media Queries
