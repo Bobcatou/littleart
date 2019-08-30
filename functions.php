@@ -304,7 +304,6 @@ genesis_register_sidebar( array(
 	'name'        => __( 'Front Page 3', 'digital-pro' ),
 	'description' => __( 'This is the 3rd section on the front page.', 'digital-pro' ),
 ) );
-<<<<<<< HEAD
 
 
 
@@ -374,5 +373,3 @@ function sp_footer_creds_text() {
      echo ' &middot; <a href="https://littleart.com">Little Art Theatre</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
      echo '</p></div>';
 }
-=======
->>>>>>> 4c3b565c689669a4acc81bbd6d9f09978fb1006e
