@@ -373,3 +373,53 @@ function sp_footer_creds_text() {
      echo ' &middot; <a href="https://littleart.com">Little Art Theatre</a> &middot; Built and Hosted by: <a href="http://www.listentothewindmedia.com" title="Listen to the Wind Media">Listen to the Wind Media</a>';
      echo '</p></div>';
 }
+
+
+/**
+*Custom Login Logo
+**/
+function my_loginlogo() {
+  echo '<style type="text/css">
+    h1 a {
+      background-image: url(' . get_stylesheet_directory_uri() . '/images/logo.png) !important;
+    }
+  </style>';
+}
+/**
+*Hover Title for Logo
+**/
+add_action('login_head', 'my_loginlogo');
+
+function my_loginURLtext() {
+    return 'Little Art Theatre';
+}
+add_filter('login_headertitle', 'my_loginURLtext');
+
+
+function my_logincustomCSSfile() {
+    wp_enqueue_style('login-styles', get_stylesheet_directory_uri() . '/login_styles.css');
+}
+add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
+
+
+/**
+*URL for custom logo
+**/
+function my_loginURL() {
+    return 'http://littleart.com';
+}
+add_filter('login_headerurl', 'my_loginURL');
+
+
+
+
+/**
+*Customer Support Admin Notice
+**/
+
+function howdy_message($translated_text, $text, $domain) {
+    $new_message = str_replace('Howdy', 'Call Listen to the Wind Media at 678-520-9914 if you have a question', $text);
+    return $new_message;
+}
+add_filter('gettext', 'howdy_message', 10, 3);
+
