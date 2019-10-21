@@ -1,0 +1,19 @@
+/**
+*Custom Styling for Login Page
+**/
+
+/* Change background color and font family */
+
+body {
+  background: #fff;
+ /* font-family: */
+}
+
+/* Change Width and Height of Logo Image + Add Custom Image File */
+.login h1 a {
+  background-image: url(logo.png);
+  width: 202px;
+  height: 108px;
+  background-size: 202px 108px;
+}
+
