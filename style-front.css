@@ -185,8 +185,11 @@ section#custom_html-4 h2 {
     text-align: center;
 /*    margin-top: 20px; */
     margin-bottom: 0;
-    padding: 10px 0;
+    padding: 20px 0;
     background: #ebdc99;
+    font-size: 60px;
+    font-size: 6rem;
+
 }
 
 /* Listen to the Wind Media changes */
@@ -263,8 +266,6 @@ div#tablist1-panel1 {
 
 }
 
-.movie-content-wrap {
-}
 
 .sep h1 {
 	margin: 0;
@@ -480,6 +481,14 @@ section#soliloquy-2 {
 	text-align: center;
 }
 
+/* Tickets Section */
+section#media_image-2 .widget-title {
+    text-align: center;
+    font-size: 28px;
+    font-size: 2.8rem;
+}
+
+
 /* Front Page 3
 --------------------------------------------- */
 
@@ -612,8 +621,6 @@ section#custom_html-3 {
 	width: 24%;
 	text-align: center;
 }
-
-
 
 
 
