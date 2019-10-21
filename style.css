@@ -2234,6 +2234,12 @@ h3.history {
 }
 
 
+.ticket-prices.one-third {
+    background: #ebdc99;
+    text-align: center;
+    padding: 20px 0;
+}
+
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
