@@ -49,8 +49,19 @@ define( 'CHILD_THEME_VERSION', '1.1.3' );
 add_action( 'wp_enqueue_scripts', 'digital_scripts_styles' );
 function digital_scripts_styles() {
 
-	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Poppins:400,500,600,700', array(), CHILD_THEME_VERSION );
+//	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic|Poppins:400,500,600,700', array(), CHILD_THEME_VERSION );
+//	wp_enqueue_style( 'ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array(), CHILD_THEME_VERSION );
+
+	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=PT+Sans:700|Roboto', array(), CHILD_THEME_VERSION );
 	wp_enqueue_style( 'ionicons', '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css', array(), CHILD_THEME_VERSION );
+
+
+
+
+
+
+
+
 
 	wp_enqueue_script( 'digital-global-scripts', get_stylesheet_directory_uri() . '/js/global.js', array( 'jquery' ), CHILD_THEME_VERSION, true );
 
@@ -324,10 +335,12 @@ function cpt_remove_entry_meta() {
 }
 
 // Add image sizes from LWM.
-add_image_size( 'now-showing-front-page-image', 300, 999 ); // Now Showing image
+//add_image_size( 'now-showing-front-page-image', 300, 999 ); // Now Showing image
 add_image_size( 'poster', 400, 999 ); // Poster
 add_image_size( 'carousel-image', 200, 130, true ); // Carousel Image for Partners
 add_image_size( 'upcoming', 600, 400 ); // Upcoming Preview pages
+add_image_size( 'front-page-movie-image', 289, 163, array( 'center', 'center' ) ); // Hard crop left top
+
 
 
 
@@ -335,10 +348,12 @@ add_image_size( 'upcoming', 600, 400 ); // Upcoming Preview pages
 add_filter( 'image_size_names_choose', 'lwm_custom_sizes' );
 function lwm_custom_sizes( $sizes ) {
     return array_merge( $sizes, array(
-        'now-showing-front-page-image' => __( 'Now Showing Image For Front Page' ),
+ //       'now-showing-front-page-image' => __( 'Now Showing Image For Front Page' ),
         'poster' => __( 'Poster Image for Single Page' ),
         'carousel-image' => __( 'Carousel Image for Partners' ),
         'upcoming' => __( 'Upcoming Event' ),
+        'front-page-movie-image' => __( 'Home Page Image' ),
+
 
 
 
@@ -422,4 +437,7 @@ function howdy_message($translated_text, $text, $domain) {
     return $new_message;
 }
 add_filter('gettext', 'howdy_message', 10, 3);
+
+
+
 
