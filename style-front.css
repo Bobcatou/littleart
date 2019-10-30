@@ -137,7 +137,7 @@ section#soliloquy-2 .widget-title {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 84px;
 	font-size: 8.4rem;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: -3px;
 	margin-bottom: 0;
 	text-transform: none;
@@ -272,7 +272,7 @@ div#tablist1-panel1 {
 }
 
 .movie-information-wrap {
-    min-height: 360px;
+    min-height: 380px;
 }
 
 #text-2 h2   {
@@ -335,7 +335,10 @@ div#tablist1-panel1 {
 }
 
 
-
+.now-showing.wrap h3 a {
+    border-bottom: none;
+    color: #a62f29;
+}
 /* Sliders */
 
 
@@ -413,7 +416,7 @@ section#soliloquy-2 {
 /*	border-right: 1px solid #eee; */
 	clear: left;
 	padding-right: 8%;
-	padding-top: 6%;
+	padding-top: 4%;
 }
 
 .front-page-2 .flexible-widgets .widget:nth-child(even) {
@@ -448,7 +451,7 @@ section#soliloquy-2 {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 14px;
 	font-size: 1.4rem;
-	font-weight: 600;
+	font-weight: 700;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 }
@@ -482,12 +485,12 @@ section#soliloquy-2 {
 }
 
 /* Tickets Section */
-section#media_image-2 .widget-title {
+section#media_image-2 .widget-title,
+section#media_video-2 .widget-title {
     text-align: center;
     font-size: 28px;
     font-size: 2.8rem;
 }
-
 
 /* Front Page 3
 --------------------------------------------- */
