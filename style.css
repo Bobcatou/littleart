@@ -2222,8 +2222,8 @@ span.mail-phone a {
 }
 
 h3.history {
-	text-decoration: underline;
-	text-underline-position: under;
+	font-size: 36px;
+	font-size: 3.6rem;
 
 }
 
