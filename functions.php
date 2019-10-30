@@ -441,3 +441,12 @@ add_filter('gettext', 'howdy_message', 10, 3);
 
 
 
+/**
+Creates Line break ability in Widget Titles
+**/
+
+function custom_widget_title( $title ) {
+    $title = str_replace( 'lwm_line_break', '<br/>', $title );
+    return $title;
+}    
+add_filter( 'widget_title', 'custom_widget_title' );
