@@ -240,7 +240,7 @@ section#custom_html-4 h2 {
 }
 
 .movie-content-wrap {
-    min-height: 400px;
+/*    min-height: 400px;  */
     padding: 10px 30px;
     background: #fff;
 }
@@ -261,6 +261,15 @@ div#tablist1-panel1 {
     background: #ebdc99;
 }
 
+div#tablist1-panel4 {
+    padding: 0;
+    border: 0;
+    border-top: 0;
+}
+
+
+
+
 .responsive-tabs-wrapper {
 	margin-bottom: 0 !important;
 
@@ -279,10 +288,12 @@ div#tablist1-panel1 {
 	margin-bottom: 0;
 }
 
+/*
 .responsive-tabs .responsive-tabs__panel {
 	padding-top: 10px !important;
 }
 
+*/
 
 .date-time {
     padding: 2px 10px;
@@ -682,5 +693,18 @@ section#custom_html-3 {
 		font-size: 36px;
 		font-size: 3.6rem;
 	}
+
+
+.soliloquy-container .soliloquy-image {
+	width: 100%;
+}
+	
+	.front-page-1 .wrap {
+		padding-top: 0;
+	}
+
+body {
+	background-color: #ebdc99;
+}
 
 }
