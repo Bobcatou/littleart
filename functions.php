@@ -439,3 +439,7 @@ function custom_widget_title( $title ) {
     return $title;
 }    
 add_filter( 'widget_title', 'custom_widget_title' );
+
+
+
+
