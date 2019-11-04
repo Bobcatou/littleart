@@ -705,6 +705,19 @@ tabs__heading:hover,
 
 }
 
+@media only screen and (max-width: 577px) {
+
+.col-sm-4 {
+	width: 100%;
+	flex: 100%;
+}
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
 
 	.front-page-1 .widget_text .widget-title {
@@ -731,6 +744,8 @@ body {
 
 
 
-
-
 }
+
+
+
+
