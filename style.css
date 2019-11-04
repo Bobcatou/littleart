@@ -2303,6 +2303,20 @@ h3.front-page-date {
 
 }
 
+
+@media only screen and (max-width: 812px) {
+
+
+
+.col-sm-4 {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+}
+
+
+
 @media only screen and (max-width: 800px) {
 
 	.site-inner {
@@ -2539,6 +2553,14 @@ h3.front-page-date {
 		text-align: left;
 	}
 
+.col-sm-4 {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+}
+
+
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -2581,4 +2603,11 @@ h3.front-page-date {
 		width: 100%;
 	}
 
+
+
 }
+
+
+
+
+
