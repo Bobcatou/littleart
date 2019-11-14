@@ -2118,6 +2118,15 @@ h4.trailer-label {
 	padding: 1rem;
 }
 
+.sep-slider {
+	background: url(images/new-separator-10px.png);
+	width: 100%;
+	height: 100%; 
+	padding: 1rem;
+}
+
+
+
 .sep-underline {
     background: url(images/separator-380-5.png);
     width: 75%;
@@ -2286,6 +2295,13 @@ h3.front-page-date {
 	border-bottom: 0;
 	
 	}
+	
+
+section#soliloquy-4 {
+	display:none;
+}
+	
+	
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
@@ -2603,6 +2619,19 @@ h3.front-page-date {
 		width: 100%;
 	}
 
+
+.sep-slider {
+	display:none;
+}
+
+section#soliloquy-2, section#soliloquy-3 {
+	display:none;
+}
+
+section#soliloquy-4 {
+	display:block;
+	padding-bottom: 20px;
+}
 
 
 }
