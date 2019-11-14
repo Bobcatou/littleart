@@ -63,7 +63,8 @@ section#soliloquy-2 {
 }
 
 
-section#soliloquy-2 .widget-title {
+section#soliloquy-2 .widget-title,
+section#soliloquy-4 .widget-title {
 	margin: 0;
 	padding: 10px 0;
 }
@@ -177,7 +178,7 @@ section#soliloquy-2 .widget-title {
 }
 /* Now Showing Date */
 h3.front-page-date {
-    font-size: 2rem !important;
+    font-size: 1.9rem !important;
 }
 
 /* Now Showing title */
@@ -366,7 +367,8 @@ div#tablist1-panel4 {
 
 }  
     
-section#soliloquy-2 {
+section#soliloquy-2,
+section#soliloquy-4 {
     padding: 0;
     background: #ebdc99;
 }    
@@ -703,13 +705,6 @@ tabs__heading:hover,
     color: #a62f29 !important;
 }
 
-}
-
-@media only screen and (max-width: 577px) {
-
-.col-sm-4 {
-	width: 100%;
-	flex: 100%;
 }
 
 
