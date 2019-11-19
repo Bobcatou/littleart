@@ -2099,6 +2099,7 @@ h4.trailer-label {
 
 .date-time h5 {
 	color: #fff;
+	margin-top: 5px;
 }
 
 .single-movie .wrap h3 {
@@ -2142,6 +2143,24 @@ h4.trailer-label {
     padding: 2px;
     margin: 0 auto;
 }
+
+
+/* Single Movie Showtime styling with no movie */
+
+
+h5.no-movie {
+    text-align: center;
+}
+
+.sep-underline-single-movie {
+    background: url(images/separator-380-5.png);
+    width: 32%;
+    height: 100%;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+
 
 
 /* Past events */
@@ -2301,7 +2320,9 @@ section#soliloquy-4 {
 	display:none;
 }
 	
-	
+.sep-2 {
+	display:none;
+}	
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
@@ -2623,6 +2644,8 @@ section#soliloquy-4 {
 .sep-slider {
 	display:none;
 }
+
+
 
 section#soliloquy-2, section#soliloquy-3 {
 	display:none;
