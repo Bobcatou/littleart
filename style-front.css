@@ -204,6 +204,11 @@ section#custom_html-4 h2 {
 
 }
 
+.now-showing.wrap .col-md-4 {
+    text-align: center;
+}
+
+
 .now-showing.wrap p {
 	font-size: 13px;
 	font-size: 1.3rem;
@@ -244,6 +249,7 @@ section#custom_html-4 h2 {
 /*    min-height: 400px;  */
     padding: 10px 30px;
     background: #fff;
+    margin-bottom: 30px;
 }
 .now-showing.wrap h5 {
 	font-size: 1.4rem;
@@ -285,10 +291,10 @@ div#tablist1-panel4 {
     min-height: 380px;
 }
 
-#text-2 h2   {
-	margin-bottom: 0;
+#text-2 h2 {
+    margin-bottom: 0;
+    padding: 10px 0;
 }
-
 /*
 .responsive-tabs .responsive-tabs__panel {
 	padding-top: 10px !important;
@@ -638,7 +644,22 @@ section#custom_html-3 {
 	text-align: center;
 }
 
+/* Under Consideration */
 
+.trailer-button-uc-movies h4 {
+    font-size: 2rem;
+}
+
+.trailer-button-uc-movies h4 a {
+    color: #fff;
+    border-bottom: 0;
+}
+
+
+.trailer-button-uc-movies {
+    background: #57714C;
+    text-decoration: none;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
