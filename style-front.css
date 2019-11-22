@@ -661,6 +661,12 @@ section#custom_html-3 {
     text-decoration: none;
 }
 
+
+section#soliloquy-4 {
+	display:none;
+}
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
@@ -757,7 +763,14 @@ body {
 .more-info-button.one-half {
     margin-top: 40px;
 }
+section#soliloquy-2, section#soliloquy-3 {
+	display:none;
+}
 
+section#soliloquy-4 {
+	display:block;
+	padding-bottom: 20px;
+}
 
 
 }
