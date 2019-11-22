@@ -2323,6 +2323,22 @@ h3.front-page-date {
 }	
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 896px) {
+
+
+.genesis-nav-menu a {
+	font-size: 1.4rem;
+	padding: 10px 4px;
+}
+
+
+
+}
+
+
+
+
+
 
 @media only screen and (min-width: 801px) {
 
