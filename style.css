@@ -2339,7 +2339,7 @@ h3.front-page-date {
 }
 
 
-@media only screen and (max-width: 812px) {
+/*@media only screen and (max-width: 812px) {
 
 
 
@@ -2350,7 +2350,7 @@ h3.front-page-date {
 }
 }
 
-
+*/
 
 @media only screen and (max-width: 800px) {
 
@@ -2587,13 +2587,14 @@ h3.front-page-date {
 	.single .entry-header {
 		text-align: left;
 	}
-
+/*
 .col-sm-4 {
     -ms-flex: 0 0 100% !important;
     flex: 0 0 100% !important;
     max-width: 100% !important;
 }
 
+*/
 
 
 }
