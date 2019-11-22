@@ -664,7 +664,7 @@ section#custom_html-3 {
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
 	.front-page-1 {
 		margin-top: 0;
