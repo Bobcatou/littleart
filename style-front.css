@@ -670,7 +670,27 @@ section#soliloquy-4 {
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
+@media only screen and (max-width: 1024px) {
+	
+.responsive-tabs .responsive-tabs__list__item {
+	margin: 1px 9px 0 0 !important;
+}
+.trailer-button.one-half.first h5 a, .more-info-button.one-half a {
+    font-size: 19px;
+	
+}
+
+
+
+
+
+
 @media only screen and (max-width: 768px) {
+
+.responsive-tabs .responsive-tabs__list__item {
+	margin: 1px 7px 0 0 !important;
+
+}
 
 	.front-page-1 {
 		margin-top: 0;
