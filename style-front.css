@@ -718,7 +718,6 @@ section#soliloquy-4 {
 
 }
 
-
 }
 
 
@@ -798,11 +797,20 @@ tabs__heading:hover,
 	font-size: 18px !important;
 }
 
-
-
+.responsive-tabs .responsive-tabs__list__item--active {
+    font-size: 18px !important;
 }
 
 
+
+
+
+
+
+
+
+
+}
 
 
 
