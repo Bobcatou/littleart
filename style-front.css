@@ -788,7 +788,9 @@ tabs__heading:hover,
     color: #a62f29 !important;
 }
 
-
+.sep-slider {
+	display:none;
+}
 
 
 
