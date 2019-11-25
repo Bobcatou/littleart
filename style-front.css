@@ -794,6 +794,12 @@ tabs__heading:hover,
 
 
 
+.responsive-tabs .responsive-tabs__list__item:hover {
+	font-size: 18px !important;
+}
+
+
+
 }
 
 
