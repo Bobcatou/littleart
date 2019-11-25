@@ -432,14 +432,16 @@ img.entry-image {
 }
 
 .gallery img {
-	border: 1px solid #ddd;
+	border: 2px solid transparent;
 	height: auto;
 	padding: 4px;
 }
 
 .gallery img:hover,
 .gallery img:focus {
-	border: 1px solid #999;
+/*	border: 1px solid #999; */
+	border: 2px solid #a62f29;
+
 }
 
 /* Forms
@@ -2045,6 +2047,7 @@ p.form-submit,
 /* Movie Template Styling */
 .movie-poster {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 h4.trailer-label {
@@ -2611,6 +2614,15 @@ h3.front-page-date {
 }
 
 */
+nav#genesis-nav-primary {
+    background: #f5edcd;
+}
+
+
+section#custom_html-4 h2 {
+	font-size: 4rem;
+}
+
 
 
 }
@@ -2622,6 +2634,7 @@ h3.front-page-date {
 		font-size: 36px;
 		font-size: 3.6rem;
 		letter-spacing: -2px;
+		text-align: center;
 	}
 
 	.gallery-item {
@@ -2661,7 +2674,9 @@ h3.front-page-date {
 }
 
 
-
+.lwm-gallery img {
+    width: 98%;
+}
 
 
 
