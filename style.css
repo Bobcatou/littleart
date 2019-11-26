@@ -2062,7 +2062,8 @@ h4.trailer-label {
   margin-top: 10px;
   margin-bottom: 0;
 }
-  .show-time-grid h4, 
+
+.show-time-grid h4, 
 .show-time-grid h5 {
   text-align:center;
 }
@@ -2693,7 +2694,9 @@ section#custom_html-4 h2 {
 }
 
 
-
+section#text-3 {
+    text-align: center;
+}
 
 
 
