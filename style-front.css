@@ -681,7 +681,8 @@ section#soliloquy-4 {
 	margin: 1px 9px 0 0 !important;
 }
 .trailer-button.one-half.first h5 a, .more-info-button.one-half a {
-    font-size: 16px;
+    font-size: 15px;
+    font-size: 1.5rem;
 }
 .now-showing.wrap .col-sm-4 {
     padding: 5px;
@@ -689,7 +690,7 @@ section#soliloquy-4 {
 }
 
 .movie-content-wrap {
-	padding: 10px 20px;
+	padding: 10px 15px;
 }
 
 
@@ -793,10 +794,11 @@ tabs__heading:hover,
     color: #a62f29 !important;
 }
 
-.sep-slider {
+/*.sep-slider {
 	display:none;
+	
 }
-
+*/
 
 
 .responsive-tabs .responsive-tabs__list__item:hover {
@@ -861,7 +863,4 @@ section#soliloquy-4 {
 
 
 }
-
-
-
 
