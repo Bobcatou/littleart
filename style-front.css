@@ -662,11 +662,15 @@ section#custom_html-3 {
     text-decoration: none;
 }
 
-
+/*
 section#soliloquy-4 {
 	display:none;
 }
+*/
 
+section#soliloquy-4 {
+    display: none;
+}
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
@@ -692,7 +696,7 @@ section#soliloquy-4 {
 
 .now-showing.wrap h5 {
 	font-size: 1.3rem;
-	}
+}
 
 
 
@@ -705,7 +709,7 @@ section#soliloquy-4 {
 
 @media only screen and (max-width: 896px) {
 	
-	section#soliloquy-2, section#soliloquy-3 {
+/*	section#soliloquy-2, section#soliloquy-3 {
 	display:none;
 }
 
@@ -714,7 +718,7 @@ section#soliloquy-4 {
 	padding-bottom: 20px;
 }
 
-
+*/
 .responsive-tabs .responsive-tabs__list__item {
 	margin: 1px 7px 0 0 !important;
 
@@ -826,10 +830,10 @@ tabs__heading:hover,
 	}
 
 
-.soliloquy-container .soliloquy-image {
+/*.soliloquy-container .soliloquy-image {
 	width: 100%;
 }
-	
+*/	
 	.front-page-1 .wrap {
 		padding-top: 0;
 	}
@@ -840,6 +844,19 @@ body {
 
 .more-info-button.one-half {
     margin-top: 40px;
+}
+
+section#soliloquy-3 {
+    display: none;
+}
+
+section#soliloquy-2 {
+    display: none;
+}
+
+
+section#soliloquy-4 {
+    display: block;
 }
 
 
