@@ -379,6 +379,17 @@ add_shortcode('show_field_with_limit', 'func_limit_field_length');
 }
 
 
+//Shortcode for current date
+
+function day_shortcode() {
+  $day = date('Y');
+  return $year;
+}
+add_shortcode('day', 'day_shortcode');
+
+
+
+
 /**
 *Custom Login Logo
 **/
