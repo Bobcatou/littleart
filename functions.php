@@ -379,13 +379,14 @@ add_shortcode('show_field_with_limit', 'func_limit_field_length');
 }
 
 
-//Shortcode for current date
+//Shortcode for current date used in Now Showing secction conditional
 
-function day_shortcode() {
-  $day = date('Y');
-  return $year;
+function date_shortcode() {
+  $todaydate = date('F j');
+  return $todaydate;
 }
-add_shortcode('day', 'day_shortcode');
+add_shortcode('monthday', 'date_shortcode');
+
 
 
 
