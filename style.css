@@ -2606,14 +2606,9 @@ h3.front-page-date {
 	.single .entry-header {
 		text-align: left;
 	}
-/*
-.col-sm-4 {
-    -ms-flex: 0 0 100% !important;
-    flex: 0 0 100% !important;
-    max-width: 100% !important;
-}
 
-*/
+
+
 nav#genesis-nav-primary {
     background: #f5edcd;
 }
