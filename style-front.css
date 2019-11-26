@@ -194,7 +194,7 @@ section#custom_html-4 h2 {
 }
 
 /* Listen to the Wind Media changes */
-.now-showing.wrap{
+.now-showing.wrap {
     background: #ebdc99;
 }
 
@@ -357,8 +357,8 @@ div#tablist1-panel4 {
     border-bottom: none;
     color: #a62f29;
 }
-/* Sliders */
 
+/* Sliders */
 
 #soliloquy-3 .widget-title {
 	margin-bottom: 0;
@@ -377,7 +377,8 @@ section#soliloquy-2,
 section#soliloquy-4 {
     padding: 0;
     background: #ebdc99;
-}    
+}   
+ 
  div#front-page-3 {
     background: transparent;
 }   
@@ -591,11 +592,11 @@ section#media_video-2 .widget-title {
    transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
    -webkit-transition: opacity .25s ease-in-out;
-   }
+}
 
    .fade-on-hover:hover {
       opacity: 0.5;
-      }
+}
 
 section#media_image-2 a {
     border-bottom: 0;
@@ -700,6 +701,7 @@ section#soliloquy-4 {
 	height: auto !important;
 }
 
+}
 
 @media only screen and (max-width: 896px) {
 	
