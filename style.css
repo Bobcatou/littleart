@@ -2078,13 +2078,23 @@ h4.trailer-label {
 }
 
 .single-movie .wrap h1 {
-  margin-bottom: 15px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 
 .imdbinfo {
     margin-top: 50px;
 }
+
+
+.single-movie .wrap h3 {
+	text-align: center;
+}
+
+
+
+
 
 /* Single Page Showtimes */
 
@@ -2324,6 +2334,11 @@ h3.front-page-date {
 .sep-2 {
 	display:none;
 }	
+
+
+
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 @media only screen and (max-width: 896px) {
@@ -2672,6 +2687,14 @@ section#custom_html-4 h2 {
 .lwm-gallery img {
     width: 98%;
 }
+
+.moviepage-right.two-thirds {
+    padding-top: 30px;
+}
+
+
+
+
 
 
 
