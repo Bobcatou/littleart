@@ -680,6 +680,7 @@ section#custom_html-3 {
 
 .trailer-button-uc-movies h4 {
     font-size: 2rem;
+    padding: 10px;
 }
 
 .trailer-button-uc-movies h4 a {
@@ -691,6 +692,7 @@ section#custom_html-3 {
 .trailer-button-uc-movies {
     background: #57714C;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 /*
