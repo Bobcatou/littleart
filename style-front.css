@@ -216,7 +216,8 @@ section#custom_html-4 h2 {
 	line-height: 1.8rem;	
 }
 
-.now-showing.wrap h3 {
+.now-showing.wrap h3,
+.special-events h3 {
     font-size: 25px;
     font-size: 2.5rem;
 	line-height: 23px;
@@ -229,8 +230,21 @@ section#custom_html-4 h2 {
 	min-height: 175px;
 }
 
-.movie-information-wrap h3 {
+.movie-information-wrap h3,
+.special-events h3 a {
 	color: #a62f29;
+	border-bottom: 0;
+}
+
+.special-events.wrap p {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 24px;
+}
+
+.special-events.wrap {
+    padding: 30px 100px;
+    min-height: 650px;
 }
 
 .trailer-button.one-half a,
@@ -387,6 +401,16 @@ section#soliloquy-4 {
 .now-showing.wrap {
     min-height: 630px;
 }
+
+
+/* Special Events */
+
+.upcoming-events h4 {
+    font-size: 23px;
+    padding-top: 10px;
+}
+
+
 
 /* Front Page 2
 --------------------------------------------- */
@@ -809,14 +833,7 @@ tabs__heading:hover,
     font-size: 18px !important;
 }
 
-
-
-
-
-
-
-
-
+]
 
 }
 
