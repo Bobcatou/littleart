@@ -1337,7 +1337,7 @@ a[rel~="attachment"]:hover,
 	background-color: #fff;
 	border-bottom: 1px solid transparent;
 	padding: 28px 30px;
-	position: fixed;
+	position: inherit;
 	top: 0;
     width: 100%; 
 	z-index: 999;
