@@ -417,6 +417,9 @@ section#soliloquy-4 {
     padding-top: 10px;
 }
 
+ .front-page-1 {
+	height: auto !important;
+}
 
 
 /* Front Page 2
@@ -705,6 +708,10 @@ section#soliloquy-4 {
     display: none;
 }
 
+
+
+
+
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
 
@@ -732,12 +739,6 @@ section#soliloquy-4 {
 	font-size: 1.3rem;
 }
 
-
-
-
- .front-page-1 {
-	height: auto !important;
-}
 
 }
 
