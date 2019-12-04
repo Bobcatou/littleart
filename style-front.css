@@ -84,7 +84,7 @@ section#soliloquy-4 .widget-title {
 
 .front-page-1 {
 	display: table;
-/*	margin-top: 90px; */
+	margin-top: 90px; 
 	overflow: hidden;
 	table-layout: fixed;
 	width: 100%;
@@ -95,7 +95,7 @@ section#soliloquy-4 .widget-title {
 	max-width: 1280px;
 	padding-left: 40px;
 	padding-right: 40px;
-/*	padding-top: 30px; */
+	padding-top: 30px; 
 }
 
 .front-page-1 .widget {
