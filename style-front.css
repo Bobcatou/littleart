@@ -84,7 +84,7 @@ section#soliloquy-4 .widget-title {
 
 .front-page-1 {
 	display: table;
-	margin-top: 90px; 
+/*	margin-top: 90px; */
 	overflow: hidden;
 	table-layout: fixed;
 	width: 100%;
@@ -695,15 +695,18 @@ section#custom_html-3 {
     border-radius: 10px;
 }
 
-/*
-section#soliloquy-4 {
-	display:none;
-}
-*/
+
 
 section#soliloquy-4 {
     display: none;
 }
+
+
+
+
+
+
+
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
@@ -886,7 +889,6 @@ section#soliloquy-2 {
 section#soliloquy-4 {
     display: block;
 }
-
 
 }
 
