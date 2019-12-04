@@ -95,7 +95,7 @@ section#soliloquy-4 .widget-title {
 	max-width: 1280px;
 	padding-left: 40px;
 	padding-right: 40px;
-	padding-top: 30px; 
+	padding-top: 30px;
 }
 
 .front-page-1 .widget {
@@ -106,7 +106,7 @@ section#soliloquy-4 .widget-title {
 	display: table-cell;
 /*	padding-top: 20px; */
 	padding-top: 0;
-	vertical-align: middle;
+	vertical-align: top;
 	width: 100%;
 }
 
@@ -514,7 +514,7 @@ section#soliloquy-4 {
 .front-page-2 ul.checkmark li:before {
 	font-size: 48px;
 	font-size: 4.8rem;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 .front-page-2 ul.checkmark li:before {
@@ -695,18 +695,15 @@ section#custom_html-3 {
     border-radius: 10px;
 }
 
-
+/*
+section#soliloquy-4 {
+	display:none;
+}
+*/
 
 section#soliloquy-4 {
     display: none;
 }
-
-
-
-
-
-
-
 
 /* Media Queries
 ---------------------------------------------------------------------------------------------------- */
@@ -890,5 +887,5 @@ section#soliloquy-4 {
     display: block;
 }
 
-}
 
+}
