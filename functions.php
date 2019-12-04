@@ -337,7 +337,7 @@ function cpt_remove_entry_meta() {
 // Add image sizes from LWM.
 //add_image_size( 'now-showing-front-page-image', 300, 999 ); // Now Showing image
 add_image_size( 'poster', 400, 999 ); // Poster
-add_image_size( 'carousel-image', 200, 130, true ); // Carousel Image for Partners
+add_image_size( 'carousel-image', 230, 130, true ); // Carousel Image for Partners
 add_image_size( 'upcoming', 600, 400 ); // Upcoming Preview pages
 add_image_size( 'front-page-movie-image', 289, 163, array( 'center', 'center' ) ); // Hard crop left top
 
@@ -401,31 +401,6 @@ function my_loginlogo() {
     }
   </style>';
 }
-/**
-*Hover Title for Logo
-**/
-add_action('login_head', 'my_loginlogo');
-
-function my_loginURLtext() {
-    return 'Little Art Theatre';
-}
-add_filter('login_headertitle', 'my_loginURLtext');
-
-
-function my_logincustomCSSfile() {
-    wp_enqueue_style('login-styles', get_stylesheet_directory_uri() . '/login_styles.css');
-}
-add_action('login_enqueue_scripts', 'my_logincustomCSSfile');
-
-
-/**
-*URL for custom logo
-**/
-function my_loginURL() {
-    return 'http://littleart.com';
-}
-add_filter('login_headerurl', 'my_loginURL');
-
 
 
 
@@ -454,4 +429,27 @@ add_filter( 'widget_title', 'custom_widget_title' );
 
 
 
+/**
+Rename Posts to Special Events
+**/	
 
+add_action( 'init', 'cp_change_post_object' );
+function cp_change_post_object() {
+    $get_post_type = get_post_type_object('post');
+    $labels = $get_post_type->labels;
+        $labels->name = 'Special Events';
+        $labels->singular_name = 'Special Event';
+        $labels->add_new = 'Add Special Event';
+        $labels->add_new_item = 'Add Special Event';
+        $labels->edit_item = 'Edit Special Event';
+        $labels->new_item = 'Special Event';
+        $labels->view_item = 'View Special Event';
+        $labels->search_items = 'Search Special Events';
+        $labels->not_found = 'No Special Events found';
+        $labels->not_found_in_trash = 'No Special Events found in Trash';
+        $labels->all_items = 'All Special Events';
+        $labels->menu_name = 'Special Events';
+        $labels->name_admin_bar = 'Special Event';
+}
+
+	
