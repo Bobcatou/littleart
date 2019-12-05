@@ -802,7 +802,8 @@ th {
 /*	background-color: #fff; */
 	background-color: #f5edcd;
 	clear: both;
-	margin: 90px auto 0;
+	margin: 0 auto;	
+/*	margin: 90px auto 0;  */
 /*	padding: 10% 40px; */
 	padding: 4% 40px 4% 40px;
 	max-width: 1280px;
