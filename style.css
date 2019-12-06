@@ -2700,8 +2700,10 @@ section#text-3 {
 }
 
 
-
-
+/* Makes mobile show times into 3 columns */
+.moviepage-right .col-sm-3 {
+    width: 50%;
+}
 
 }
 
