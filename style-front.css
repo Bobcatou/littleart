@@ -858,11 +858,7 @@ tabs__heading:hover,
 		font-size: 3.6rem;
 	}
 
-
-/*.soliloquy-container .soliloquy-image {
-	width: 100%;
-}
-*/	
+	
 	.front-page-1 .wrap {
 		padding-top: 0;
 	}
@@ -888,5 +884,10 @@ section#soliloquy-4 {
     display: block;
 }
 
+
+
+.showtime-front-page .col-sm-4 {
+	width: 50%;
+}
 
 }
