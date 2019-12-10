@@ -2223,7 +2223,8 @@ h5.no-movie {
 
 /* Donation Page */
 
-.donate-wrap {
+.donate-wrap,
+.donate-wrap-top {
     border-bottom: solid 1px #000;
     padding: 20px 0;
 }
@@ -2633,8 +2634,15 @@ nav#genesis-nav-primary {
 
 section#custom_html-4 h2 {
 	font-size: 4rem;
+	margin: 0 5px;
 }
 
+
+.donate-title h3 {
+	font-size: 18px;
+	font-size: 1.8rem;
+	
+}
 
 
 }
@@ -2705,6 +2713,17 @@ section#text-3 {
     width: 50%;
 }
 
+
+/* Friends page */
+
+.donate-title {
+    min-height: 200px;
+}
+
+.entry-content p:last-child {
+    margin-bottom: 0;
+    margin-bottom: 25px;
+}
 }
 
 
