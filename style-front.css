@@ -131,7 +131,13 @@ section#soliloquy-4 .widget-title {
 	text-align: center;
 }
 
+.image-and-title {
+    min-height: 80px;
+}
 
+.image-and-title h2 {
+    font-size: 4rem;
+}
 
 
 .front-page-1 .widget_text .widget-title {
@@ -843,7 +849,6 @@ tabs__heading:hover,
     font-size: 18px !important;
 }
 
-]
 
 }
 
@@ -886,8 +891,14 @@ section#soliloquy-4 {
 
 
 
-.showtime-front-page .col-sm-4 {
+/*.showtime-front-page .col-sm-4 {
 	width: 50%;
+}
+*/
+
+.showtime-front-page {
+    width: 50%;
+    margin: 0 auto;
 }
 
 }
