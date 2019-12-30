@@ -133,6 +133,7 @@ section#soliloquy-4 .widget-title {
 
 .image-and-title {
     min-height: 80px;
+    padding-bottom: 20px;
 }
 
 .image-and-title h2 {
@@ -887,6 +888,7 @@ section#soliloquy-2 {
 
 section#soliloquy-4 {
     display: block;
+    padding-bottom: 15px;
 }
 
 
