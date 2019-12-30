@@ -262,7 +262,8 @@ section#custom_html-4 h2 {
 
 
 .trailer-button.one-half a,
-.more-info-button.one-half a {
+.more-info-button.one-half a,
+.more-info-button-only a {
     background: #57714C;
     padding: 10px;
     border-radius: 5px;
@@ -348,7 +349,8 @@ div#tablist1-panel4 {
 }
 
 .trailer-button.one-half.first h5 a,
-.more-info-button.one-half a {
+.more-info-button.one-half a,
+.more-info-button-only a {
     font-size: 20px;
     letter-spacing: 0;
     border-radius: 10px;
