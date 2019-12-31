@@ -718,7 +718,10 @@ section#soliloquy-4 {
 }
 
 
-
+.title-note h3,
+.title-note h5 {
+	display: inline-block;
+}
 
 
 /* Media Queries
