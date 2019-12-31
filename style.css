@@ -1945,6 +1945,7 @@ p.form-submit,
 .footer-widgets p,
 .footer-widgets .widget-title {
 	color: #fff;
+	text-align: center;
 }
 
 .footer-widgets a {
